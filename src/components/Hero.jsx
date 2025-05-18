@@ -13,7 +13,7 @@ const Hero = () => {
     <div className={`bg-blue-deep text-gray-lightest md:max-h-130 relative`}>
       {isMobile ? <img src={introPatternLeftMobile} alt="" className="mobile absolute left-0 -bottom-100" /> : <img src={introPatternLeft} alt="" className="desktop absolute left-0 -bottom-100" />}
       {isMobile ? <img src={introPatternRightMobile} alt="" className="mobile absolute right-0 -top-40" /> : <img src={introPatternRight} alt="" className="desktop absolute right-0 -top-40" />}
-      <div className="max-w-6xl mx-auto md:py-24  border-red-500 flex md:px-3 max-h-full gap-10 max-md:flex-col-reverse">
+      <div className="max-w-6xl mx-auto  md:pt-35 md:pb-24  border-red-500 flex md:px-3 max-h-full gap-10 max-md:flex-col-reverse">
         <motion.div className="left flex flex-col max-md:items-center gap-5 md:w-1/2 max-md:p-10"
         initial={{opacity: 0, x: -100}}
         animate={{opacity: 1, x: 0}}
